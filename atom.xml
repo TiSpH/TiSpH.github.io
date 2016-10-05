@@ -4,7 +4,7 @@
   <title><![CDATA[TiSpH]]></title>
   <link href="https://tisph.github.io/atom.xml" rel="self"/>
   <link href="https://tisph.github.io/"/>
-  <updated>2016-10-04T18:52:42+08:00</updated>
+  <updated>2016-10-05T17:38:31+08:00</updated>
   <id>https://tisph.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://www.coderforart.com/">CoderForArt</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Classic games]]></title>
+    <link href="https://tisph.github.io/14756578616284.html"/>
+    <updated>2016-10-05T16:57:41+08:00</updated>
+    <id>https://tisph.github.io/14756578616284.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0"><a href="media/14756578616284/hextris-gh-pages./index.html">Hextris</a></h2>
+
+<p><img src="media/14756578616284/hextris.gif" alt="hextris set up" style="width:400px;"/></p>
+
+<h2 id="toc_1"><a href="media/14756578616284/2048-master./index.html">2048</a></h2>
+
+<p><img src="media/14756578616284/2048.gif" alt="2048 set up" style="width:400px;"/></p>
+
+<h2 id="toc_2"><a href="media/14756578616284/pacman-master./index.html">Pacman</a></h2>
+
+<p><img src="media/14756578616284/pacman.gif" alt="pacman set up" style="width:400px;"/></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Media test]]></title>
