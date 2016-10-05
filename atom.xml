@@ -4,7 +4,7 @@
   <title><![CDATA[TiSpH]]></title>
   <link href="https://tisph.github.io/atom.xml" rel="self"/>
   <link href="https://tisph.github.io/"/>
-  <updated>2016-10-05T18:49:06+08:00</updated>
+  <updated>2016-10-05T19:23:58+08:00</updated>
   <id>https://tisph.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -19,17 +19,27 @@
     <updated>2016-10-05T16:57:41+08:00</updated>
     <id>https://tisph.github.io/14756578616284.html</id>
     <content type="html"><![CDATA[
-<h2 id="toc_0"><a href="media/14756578616284/hextris-gh-pages./index.html">Hextris</a></h2>
+<h2 id="toc_0">Play</h2>
+
+<h3 id="toc_1"><a href="media/14756578616284/hextris-gh-pages./index.html">Hextris</a></h3>
 
 <p><img src="media/14756578616284/hextris.gif" alt="hextris " style="width:400px;"/></p>
 
-<h2 id="toc_1"><a href="media/14756578616284/2048-master./index.html">2048</a></h2>
+<h3 id="toc_2"><a href="media/14756578616284/2048-master./index.html">2048</a></h3>
 
 <p><img src="media/14756578616284/2048.gif" alt="2048 " style="width:400px;"/></p>
 
-<h2 id="toc_2"><a href="media/14756578616284/pacman-master./index.html">Pacman</a></h2>
+<h3 id="toc_3"><a href="media/14756578616284/pacman-master./index.html">Pacman</a> (needs keyboard)</h3>
 
 <p><img src="media/14756578616284/pacman.gif" alt="pacman " style="width:400px;"/></p>
+
+<h2 id="toc_4">Source</h2>
+
+<h3 id="toc_5"><a href="https://github.com/Hextris/hextris">Hextris</a></h3>
+
+<h3 id="toc_6"><a href="https://github.com/gabrielecirulli/2048">2048</a></h3>
+
+<h3 id="toc_7"><a href="https://github.com/daleharvey/pacman">Pacman</a></h3>
 
 ]]></content>
   </entry>
