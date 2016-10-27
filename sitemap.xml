@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://tisph.github.io/</loc>
-  <lastmod>2016-10-19T15:56:39+08:00</lastmod>
+  <lastmod>2016-10-27T15:42:35+08:00</lastmod>
 </url>
 
 <url>
@@ -26,6 +26,14 @@
 </url>
 
 
+
+<url>
+  <loc>https://tisph.github.io/Games.html</loc>
+</url>
+
+<url>
+  <loc>https://tisph.github.io/Test.html</loc>
+</url>
 
 
 </urlset>

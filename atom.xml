@@ -4,14 +4,13 @@
   <title><![CDATA[TiSpH]]></title>
   <link href="https://tisph.github.io/atom.xml" rel="self"/>
   <link href="https://tisph.github.io/"/>
-  <updated>2016-10-19T15:56:15+08:00</updated>
+  <updated>2016-10-27T15:42:13+08:00</updated>
   <id>https://tisph.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
-  <generator uri="http://www.coderforart.com/">CoderForArt</generator>
-
+  <generator uri="http://www.mweb.im/">MWeb</generator>
   
   <entry>
     <title type="html"><![CDATA[Classic games]]></title>
@@ -57,7 +56,7 @@
 <li>Audio</li>
 </ul>
 
-<p><audio src="media/14755717964811/The%20XX%20-%20Intro%20-%20intro.mp3" controls="" preload="none"></p>
+<p><audio src="media/14755717964811/The%20XX%20-%20Intro%20-%20intro.mp3" controls=""></p>
 
 <ul>
 <li>Video</li>
