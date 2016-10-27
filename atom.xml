@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[TiSpH]]></title>
-  <link href="https://tisph.github.io/atom.xml" rel="self"/>
-  <link href="https://tisph.github.io/"/>
-  <updated>2016-10-27T16:13:26+08:00</updated>
-  <id>https://tisph.github.io/</id>
+  <link href="https://tisph.site/atom.xml" rel="self"/>
+  <link href="https://tisph.site/"/>
+  <updated>2016-10-27T16:13:57+08:00</updated>
+  <id>https://tisph.site/</id>
   <author>
     <name><![CDATA[]]></name>
     
@@ -14,9 +14,9 @@
   
   <entry>
     <title type="html"><![CDATA[清理Mac上无用的替身（alias）]]></title>
-    <link href="https://tisph.github.io/14775543848434.html"/>
+    <link href="https://tisph.site/14775543848434.html"/>
     <updated>2016-10-27T15:46:24+08:00</updated>
-    <id>https://tisph.github.io/14775543848434.html</id>
+    <id>https://tisph.site/14775543848434.html</id>
     <content type="html"><![CDATA[
 <ul>
 <li>清理所有目录：
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[Classic games]]></title>
-    <link href="https://tisph.github.io/14756578616284.html"/>
+    <link href="https://tisph.site/14756578616284.html"/>
     <updated>2016-10-05T16:57:41+08:00</updated>
-    <id>https://tisph.github.io/14756578616284.html</id>
+    <id>https://tisph.site/14756578616284.html</id>
     <content type="html"><![CDATA[
 <h2 id="toc_0">Hextris, 2048 &amp; Pacman</h2>
 
@@ -64,9 +64,9 @@
   
   <entry>
     <title type="html"><![CDATA[Media test]]></title>
-    <link href="https://tisph.github.io/14755717964811.html"/>
+    <link href="https://tisph.site/14755717964811.html"/>
     <updated>2016-10-04T17:03:16+08:00</updated>
-    <id>https://tisph.github.io/14755717964811.html</id>
+    <id>https://tisph.site/14755717964811.html</id>
     <content type="html"><![CDATA[
 <h2 id="toc_0">Image, Audio &amp; Video</h2>
 
@@ -95,9 +95,9 @@
   
   <entry>
     <title type="html"><![CDATA[Verify something...]]></title>
-    <link href="https://tisph.github.io/14755713118882.html"/>
+    <link href="https://tisph.site/14755713118882.html"/>
     <updated>2016-10-04T16:55:11+08:00</updated>
-    <id>https://tisph.github.io/14755713118882.html</id>
+    <id>https://tisph.site/14755713118882.html</id>
     <content type="html"><![CDATA[
 
 ]]></content>
@@ -105,9 +105,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="https://tisph.github.io/14755707821292.html"/>
+    <link href="https://tisph.site/14755707821292.html"/>
     <updated>2016-10-04T16:46:22+08:00</updated>
-    <id>https://tisph.github.io/14755707821292.html</id>
+    <id>https://tisph.site/14755707821292.html</id>
     <content type="html"><![CDATA[
 
 ]]></content>
