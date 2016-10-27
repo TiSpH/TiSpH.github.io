@@ -4,7 +4,7 @@
   <title><![CDATA[TiSpH]]></title>
   <link href="https://tisph.github.io/atom.xml" rel="self"/>
   <link href="https://tisph.github.io/"/>
-  <updated>2016-10-27T15:42:13+08:00</updated>
+  <updated>2016-10-27T16:13:26+08:00</updated>
   <id>https://tisph.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -13,12 +13,34 @@
   <generator uri="http://www.mweb.im/">MWeb</generator>
   
   <entry>
+    <title type="html"><![CDATA[清理Mac上无用的替身（alias）]]></title>
+    <link href="https://tisph.github.io/14775543848434.html"/>
+    <updated>2016-10-27T15:46:24+08:00</updated>
+    <id>https://tisph.github.io/14775543848434.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>清理所有目录：
+<code>find -L / -type l -exec rm -- {} +</code></li>
+</ul>
+
+<blockquote>
+<p>此方法仅对软件自动生成的alias有效，若是手动创建的“替身”，由于生成的是MacOS Alias file故不再清理范围之内。</p>
+</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Classic games]]></title>
     <link href="https://tisph.github.io/14756578616284.html"/>
     <updated>2016-10-05T16:57:41+08:00</updated>
     <id>https://tisph.github.io/14756578616284.html</id>
     <content type="html"><![CDATA[
-<h2 id="toc_0">Play</h2>
+<h2 id="toc_0">Hextris, 2048 &amp; Pacman</h2>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_1">Play</h2>
 
 <ul>
 <li><p><a href="media/14756578616284/hextris-gh-pages./index.html">Hextris</a><br/>
@@ -29,7 +51,7 @@
 <img src="media/14756578616284/pacman.gif" alt="pacman " style="width:400px;"/></p></li>
 </ul>
 
-<h2 id="toc_1">Source</h2>
+<h2 id="toc_2">Source</h2>
 
 <ul>
 <li><a href="https://github.com/Hextris/hextris">Hextris</a></li>
@@ -46,6 +68,10 @@
     <updated>2016-10-04T17:03:16+08:00</updated>
     <id>https://tisph.github.io/14755717964811.html</id>
     <content type="html"><![CDATA[
+<h2 id="toc_0">Image, Audio &amp; Video</h2>
+
+<span id="more"></span><!-- more -->
+
 <ul>
 <li>Image</li>
 </ul>
