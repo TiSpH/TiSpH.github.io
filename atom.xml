@@ -4,13 +4,38 @@
   <title><![CDATA[TiSpH]]></title>
   <link href="http://tisph.site/atom.xml" rel="self"/>
   <link href="http://tisph.site/"/>
-  <updated>2016-10-27T17:29:54+08:00</updated>
+  <updated>2016-10-30T02:35:55+08:00</updated>
   <id>http://tisph.site/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[Daily TED]]></title>
+    <link href="http://tisph.site/14785261307861.html"/>
+    <updated>2016-11-07T21:42:10+08:00</updated>
+    <id>http://tisph.site/14785261307861.html</id>
+    <content type="html"><![CDATA[
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Name</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>2016-11-07</td>
+<td><a href="https://www.ted.com/talks/wanis_kabbaj_what_a_driverless_world_could_look_like">What a driverless world could look like</a></td>
+</tr>
+</tbody>
+</table>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[清理Mac上无用的替身（alias）]]></title>
