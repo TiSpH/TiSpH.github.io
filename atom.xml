@@ -4,7 +4,7 @@
   <title><![CDATA[TiSpH]]></title>
   <link href="http://tisph.site/atom.xml" rel="self"/>
   <link href="http://tisph.site/"/>
-  <updated>2016-12-04T14:03:54+08:00</updated>
+  <updated>2016-12-04T14:03:58+08:00</updated>
   <id>http://tisph.site/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -71,7 +71,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[清理Mac上无用的替身（alias）]]></title>
+    <title type="html"><![CDATA[清理Mac上无用的替身]]></title>
     <link href="http://tisph.site/14775543848434.html"/>
     <updated>2016-10-27T15:46:24+08:00</updated>
     <id>http://tisph.site/14775543848434.html</id>
@@ -82,8 +82,21 @@
 </ul>
 
 <blockquote>
-<p>此方法仅对软件自动生成的alias有效，若是手动创建的“替身”，由于生成的是MacOS Alias file故不在清理范围之内。</p>
+<p>仅对软件或命令生成的替身有效。若是右键创建的替身，由于生成的是MacOS Alias<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> file故不在清理范围之内。</p>
 </blockquote>
+
+<span id="more"></span><!-- more -->
+
+<div class="footnotes">
+<hr/>
+<ol>
+
+<li id="fn1">
+<p>Alias即替身，等同于Windows中的快捷方式&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
 
 ]]></content>
   </entry>
