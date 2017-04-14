@@ -20,9 +20,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
-
-  <title>
+    <title>
 
   TiSpH
 
@@ -137,15 +135,16 @@
                         	<h2 id="toc_0">基本安装</h2>
 
 <ol>
-<li>分区, 1M的BIOS boot(sda1)和剩余主分区(sda2) <code>cfdisk</code></li>
-<li>将主分区格式化为ext4 <code>mkfs.ext4 /dev/sda2</code></li>
+<li>分区, 1M 的 BIOS boot (sda1) 和剩余主分区 (sda2) <code>cfdisk</code></li>
+<li>将主分区格式化为 ext4 <code>mkfs.ext4 /dev/sda2</code></li>
 <li>挂载主分区 <code>mount /dev/sda2 /mnt</code></li>
 <li>选择镜像 <code>nano /etc/pacman.d/mirrorlist</code></li>
 <li>安装 <code>pacstrap /mnt</code></li>
-<li>更改root至新系统 <code>arch-chroot /mnt /bin/bash</code></li>
-<li>下载grub <code>pacman -S grub-bios</code></li>
-<li>安装grub <code>grub-install /dev/sda</code> <code>grub-mkconfig -o /boot/grub/grub.cfg</code></li>
-<li>启用dhcpcd <code>systemctl enable dhcpcd</code></li>
+<li>更改 root 至新系统 <code>arch-chroot /mnt /bin/bash</code></li>
+<li>生成 fstab 文件 <code>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></li>
+<li>下载 grub <code>pacman -S grub-bios</code></li>
+<li>安装 grub <code>grub-install /dev/sda</code> <code>grub-mkconfig -o /boot/grub/grub.cfg</code></li>
+<li>启用 dhcpcd <code>systemctl enable dhcpcd</code></li>
 <li>重启, 完成剩余个性化设置</li>
 </ol>
 

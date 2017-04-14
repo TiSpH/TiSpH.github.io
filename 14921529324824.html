@@ -129,15 +129,16 @@
       <h2 id="toc_0">基本安装</h2>
 
 <ol>
-<li>分区, 1M的BIOS boot(sda1)和剩余主分区(sda2) <code>cfdisk</code></li>
-<li>将主分区格式化为ext4 <code>mkfs.ext4 /dev/sda2</code></li>
+<li>分区, 1M 的 BIOS boot (sda1) 和剩余主分区 (sda2) <code>cfdisk</code></li>
+<li>将主分区格式化为 ext4 <code>mkfs.ext4 /dev/sda2</code></li>
 <li>挂载主分区 <code>mount /dev/sda2 /mnt</code></li>
 <li>选择镜像 <code>nano /etc/pacman.d/mirrorlist</code></li>
 <li>安装 <code>pacstrap /mnt</code></li>
-<li>更改root至新系统 <code>arch-chroot /mnt /bin/bash</code></li>
-<li>下载grub <code>pacman -S grub-bios</code></li>
-<li>安装grub <code>grub-install /dev/sda</code> <code>grub-mkconfig -o /boot/grub/grub.cfg</code></li>
-<li>启用dhcpcd <code>systemctl enable dhcpcd</code></li>
+<li>更改 root 至新系统 <code>arch-chroot /mnt /bin/bash</code></li>
+<li>生成 fstab 文件 <code>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></li>
+<li>下载 grub <code>pacman -S grub-bios</code></li>
+<li>安装 grub <code>grub-install /dev/sda</code> <code>grub-mkconfig -o /boot/grub/grub.cfg</code></li>
+<li>启用 dhcpcd <code>systemctl enable dhcpcd</code></li>
 <li>重启, 完成剩余个性化设置</li>
 </ol>
 
@@ -146,10 +147,10 @@
 <h2 id="toc_1">图形界面</h2>
 
 <ol>
-<li>安装通用显卡驱动(性能不如专用) <code>pacman -S xf86-video-vesa</code></li>
+<li>安装通用显卡驱动 (性能不如专用) <code>pacman -S xf86-video-vesa</code></li>
 <li>安装触摸板驱动* <code>pacman -S xf86-input-synaptics</code></li>
-<li>安装xorg <code>pacman -S xorg-server xorg-xinit</code></li>
-<li>安装KDE或者其他桌面环境 <code>pacman -S plasma</code></li>
+<li>安装 xorg <code>pacman -S xorg-server xorg-xinit</code></li>
+<li>安装 KDE 或者其他桌面环境 <code>pacman -S plasma</code></li>
 <li>在<code>.xinitrc</code>中添加<code>exec startkde</code></li>
 <li><code>startx</code>或者安装显示管理器</li>
 </ol>
