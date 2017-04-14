@@ -108,6 +108,92 @@
 		<div class="markdown-body home-categories">
 		
 			<div class="article">
+                <a class="clearlink" href="14921529324824.html">
+                
+                  <h1>Arch Linux快速安装 (适用于大部分现代电脑)</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<h2 id="toc_0">基本安装</h2>
+
+<ol>
+<li>分区, 1M的BIOS boot(sda1)和剩余主分区(sda2) <code>cfdisk</code></li>
+<li>将主分区格式化为ext4 <code>mkfs.ext4 /dev/sda2</code></li>
+<li>挂载主分区 <code>mount /dev/sda2 /mnt</code></li>
+<li>选择镜像 <code>nano /etc/pacman.d/mirrorlist</code></li>
+<li>安装 <code>pacstrap /mnt</code></li>
+<li>更改root至新系统 <code>arch-chroot /mnt /bin/bash</code></li>
+<li>下载grub <code>pacman -S grub-bios</code></li>
+<li>安装grub <code>grub-install /dev/sda</code> <code>grub-mkconfig -o /boot/grub/grub.cfg</code></li>
+<li>启用dhcpcd <code>systemctl enable dhcpcd</code></li>
+<li>重启, 完成剩余个性化设置</li>
+</ol>
+
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                   <a href="14921529324824.html">Read more</a>&nbsp;&nbsp; 
+                    <span class="date">2017/4/14</span>
+                    
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
+                <a class="clearlink" href="14921519902231.html">
+                
+                  <h1>绕过电信光猫限制</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<ol>
+<li>使用useradmin登陆，记下LOID</li>
+<li>长按reset使其重置</li>
+<li>使用telecomadmin登陆，初始密码一般为nE7jA%5m</li>
+<li>在应用中做出需要的修改，或者设置DMZ主机一劳永逸</li>
+<li>在网络-&gt;远程管理中写上LOID保存并等待自动发配</li>
+<li>至此telecomadmin的密码已被修改，但你作出的修改还存在</li>
+<li>若想修改设置请返回步骤2</li>
+</ol>
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2017/4/14</span>
+                    <span>posted in&nbsp;</span> 
+          				  
+          					    <span class="posted-in"><a href='Tips.html'>Tips</a></span>
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
                 <a class="clearlink" href="14823836249278.html">
                 
                   <h1>Book List</h1>
@@ -115,8 +201,9 @@
                       
                       <div class="a-content-text">
                         
-                        	<p>D is for Digital<br/>
-e的故事</p>
+                        	<p>世界是数字的<br/>
+e的故事<br/>
+数学物理方法</p>
 
                         
                       </div>
@@ -309,85 +396,6 @@ e的故事</p>
                 </div>
               </div><!-- article -->
         
-			<div class="article">
-                <a class="clearlink" href="14775543848434.html">
-                
-                  <h1>清理Mac上无用的替身</h1>
-                  <div class="a-content">
-                      
-                      <div class="a-content-text">
-                        
-                        	<ul>
-<li>清理所有目录：
-<code>find -L / -type l -exec rm -- {} +</code></li>
-</ul>
-
-<blockquote>
-<p>仅对软件或命令生成的替身有效。若是右键创建的替身，由于生成的是MacOS Alias<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> file故不在清理范围之内。</p>
-</blockquote>
-
-
-                        
-                      </div>
-                  </div>
-                </a>
-                <div class="read-more clearfix">
-                  <div class="more-left left">
-                   <a href="14775543848434.html">Read more</a>&nbsp;&nbsp; 
-                    <span class="date">2016/10/27</span>
-                    <span>posted in&nbsp;</span> 
-          				  
-          					    <span class="posted-in"><a href='Tips.html'>Tips</a></span>
-          				   
-                  </div>
-                  <div class="more-right right">
-                  <span class="comments">
-                      
-
-                       
-                  </span>
-                  </div>
-                </div>
-              </div><!-- article -->
-        
-			<div class="article">
-                <a class="clearlink" href="14756578616284.html">
-                
-                  <h1>Classic games</h1>
-                  <div class="a-content">
-                      
-		                  <div class="a-content-img">
-                      		<img src="media/14756578616284/hextris.gif" />
-                      	  </div>
-		              
-                      <div class="a-content-text">
-                        
-                        	<h2 id="toc_0">Hextris, 2048 &amp; Pacman</h2>
-
-
-                        
-                      </div>
-                  </div>
-                </a>
-                <div class="read-more clearfix">
-                  <div class="more-left left">
-                   <a href="14756578616284.html">Read more</a>&nbsp;&nbsp; 
-                    <span class="date">2016/10/5</span>
-                    <span>posted in&nbsp;</span> 
-          				  
-          					    <span class="posted-in"><a href='Games.html'>Games</a></span>
-          				   
-                  </div>
-                  <div class="more-right right">
-                  <span class="comments">
-                      
-
-                       
-                  </span>
-                  </div>
-                </div>
-              </div><!-- article -->
-        
               
 
 
@@ -463,6 +471,18 @@ e的故事</p>
 	      
 		      
 			      <li class="post">
+			        <a href="14921529324824.html">Arch Linux快速安装 (适用于大部分现代电脑)</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="14921519902231.html">绕过电信光猫限制</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
 			        <a href="14823836249278.html">Book List</a>
 			      </li>
 		     
@@ -480,16 +500,8 @@ e的故事</p>
 		     
 		  
 		      
-			      <li class="post">
-			        <a href="14785261307861.html">Daily TED</a>
-			      </li>
-		     
 		  
 		      
-			      <li class="post">
-			        <a href="14775543848434.html">清理Mac上无用的替身</a>
-			      </li>
-		     
 		  
 		      
 		  

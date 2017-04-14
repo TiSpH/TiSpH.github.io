@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  Hello World - TiSpH
+  Arch Linux快速安装 (适用于大部分现代电脑) - TiSpH
   
   </title>
   
@@ -108,14 +108,12 @@
       <div class="markdown-body article-wrap">
        <div class="article">
           
-          <h1>Hello World</h1>
+          <h1>Arch Linux快速安装 (适用于大部分现代电脑)</h1>
      
         <div class="read-more clearfix">
-          <span class="date">2016/10/4</span>
+          <span class="date">2017/4/14</span>
 
-          <span>posted in&nbsp;</span> 
           
-              <span class="posted-in"><a href='Test.html'>Test</a></span>
            
          
           <span class="comments">
@@ -128,7 +126,34 @@
       </div><!-- article -->
 
       <div class="article-content">
-      
+      <h2 id="toc_0">基本安装</h2>
+
+<ol>
+<li>分区, 1M的BIOS boot(sda1)和剩余主分区(sda2) <code>cfdisk</code></li>
+<li>将主分区格式化为ext4 <code>mkfs.ext4 /dev/sda2</code></li>
+<li>挂载主分区 <code>mount /dev/sda2 /mnt</code></li>
+<li>选择镜像 <code>nano /etc/pacman.d/mirrorlist</code></li>
+<li>安装 <code>pacstrap /mnt</code></li>
+<li>更改root至新系统 <code>arch-chroot /mnt /bin/bash</code></li>
+<li>下载grub <code>pacman -S grub-bios</code></li>
+<li>安装grub <code>grub-install /dev/sda</code> <code>grub-mkconfig -o /boot/grub/grub.cfg</code></li>
+<li>启用dhcpcd <code>systemctl enable dhcpcd</code></li>
+<li>重启, 完成剩余个性化设置</li>
+</ol>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_1">图形界面</h2>
+
+<ol>
+<li>安装通用显卡驱动(性能不如专用) <code>pacman -S xf86-video-vesa</code></li>
+<li>安装触摸板驱动* <code>pacman -S xf86-input-synaptics</code></li>
+<li>安装xorg <code>pacman -S xorg-server xorg-xinit</code></li>
+<li>安装KDE或者其他桌面环境 <code>pacman -S plasma</code></li>
+<li>在<code>.xinitrc</code>中添加<code>exec startkde</code></li>
+<li><code>startx</code>或者安装显示管理器</li>
+</ol>
+
 
     
 
@@ -138,13 +163,13 @@
         <div class="large-6 columns">
         <p class="text-left" style="padding:15px 0px;">
       
-          <a href="14755713118882.html" 
-          title="Previous Post: Verify something...">&laquo; Verify something...</a>
-      
         </p>
         </div>
         <div class="large-6 columns">
       <p class="text-right" style="padding:15px 0px;">
+      
+          <a  href="14921519902231.html" 
+          title="Next Post: 绕过电信光猫限制">绕过电信光猫限制 &raquo;</a>
       
       </p>
         </div>
