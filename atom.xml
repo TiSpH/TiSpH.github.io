@@ -4,7 +4,7 @@
   <title><![CDATA[TiSpH]]></title>
   <link href="http://tisph.site/atom.xml" rel="self"/>
   <link href="http://tisph.site/"/>
-  <updated>2017-04-14T16:57:13+08:00</updated>
+  <updated>2017-09-14T23:00:45-05:00</updated>
   <id>http://tisph.site/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -13,9 +13,20 @@
   <generator uri="http://www.mweb.im/">MWeb</generator>
   
   <entry>
+    <title type="html"><![CDATA[Pictures]]></title>
+    <link href="http://tisph.site/15054475124056.html"/>
+    <updated>2017-09-14T22:51:52-05:00</updated>
+    <id>http://tisph.site/15054475124056.html</id>
+    <content type="html"><![CDATA[
+<p><a href="media/15054475124056/Zelda.jpg">The Legend of Zelda: Breath of the Wild</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Arch Linux快速安装 (适用于大部分现代电脑)]]></title>
     <link href="http://tisph.site/14921529324824.html"/>
-    <updated>2017-04-14T14:55:32+08:00</updated>
+    <updated>2017-04-14T01:55:32-05:00</updated>
     <id>http://tisph.site/14921529324824.html</id>
     <content type="html"><![CDATA[
 <h2 id="toc_0">基本安装</h2>
@@ -53,7 +64,7 @@
   <entry>
     <title type="html"><![CDATA[绕过电信光猫限制]]></title>
     <link href="http://tisph.site/14921519902231.html"/>
-    <updated>2017-04-14T14:39:50+08:00</updated>
+    <updated>2017-04-14T01:39:50-05:00</updated>
     <id>http://tisph.site/14921519902231.html</id>
     <content type="html"><![CDATA[
 <ol>
@@ -72,7 +83,7 @@
   <entry>
     <title type="html"><![CDATA[Book List]]></title>
     <link href="http://tisph.site/14823836249278.html"/>
-    <updated>2016-12-22T13:13:44+08:00</updated>
+    <updated>2016-12-21T23:13:44-06:00</updated>
     <id>http://tisph.site/14823836249278.html</id>
     <content type="html"><![CDATA[
 <p>世界是数字的<br/>
@@ -85,7 +96,7 @@ e的故事<br/>
   <entry>
     <title type="html"><![CDATA[Raspberry Pi]]></title>
     <link href="http://tisph.site/14813469452555.html"/>
-    <updated>2016-12-10T13:15:45+08:00</updated>
+    <updated>2016-12-09T23:15:45-06:00</updated>
     <id>http://tisph.site/14813469452555.html</id>
     <content type="html"><![CDATA[
 <p>Catalogue:</p>
@@ -221,7 +232,7 @@ WantedBy=multi-user.target
   <entry>
     <title type="html"><![CDATA[Microwave Oven 微波炉图解]]></title>
     <link href="http://tisph.site/14805778440204.html"/>
-    <updated>2016-12-01T15:37:24+08:00</updated>
+    <updated>2016-12-01T01:37:24-06:00</updated>
     <id>http://tisph.site/14805778440204.html</id>
     <content type="html"><![CDATA[
 <span id="more"></span><!-- more -->
@@ -234,7 +245,7 @@ WantedBy=multi-user.target
   <entry>
     <title type="html"><![CDATA[Daily TED]]></title>
     <link href="http://tisph.site/14785261307861.html"/>
-    <updated>2016-11-07T21:42:10+08:00</updated>
+    <updated>2016-11-07T07:42:10-06:00</updated>
     <id>http://tisph.site/14785261307861.html</id>
     <content type="html"><![CDATA[
 <table>
@@ -279,7 +290,7 @@ WantedBy=multi-user.target
   <entry>
     <title type="html"><![CDATA[清理Mac上无用的替身]]></title>
     <link href="http://tisph.site/14775543848434.html"/>
-    <updated>2016-10-27T15:46:24+08:00</updated>
+    <updated>2016-10-27T02:46:24-05:00</updated>
     <id>http://tisph.site/14775543848434.html</id>
     <content type="html"><![CDATA[
 <ul>
@@ -310,7 +321,7 @@ WantedBy=multi-user.target
   <entry>
     <title type="html"><![CDATA[Classic games]]></title>
     <link href="http://tisph.site/14756578616284.html"/>
-    <updated>2016-10-05T16:57:41+08:00</updated>
+    <updated>2016-10-05T03:57:41-05:00</updated>
     <id>http://tisph.site/14756578616284.html</id>
     <content type="html"><![CDATA[
 <h2 id="toc_0">Hextris, 2048 &amp; Pacman</h2>
@@ -342,7 +353,7 @@ WantedBy=multi-user.target
   <entry>
     <title type="html"><![CDATA[Media test]]></title>
     <link href="http://tisph.site/14755717964811.html"/>
-    <updated>2016-10-04T17:03:16+08:00</updated>
+    <updated>2016-10-04T04:03:16-05:00</updated>
     <id>http://tisph.site/14755717964811.html</id>
     <content type="html"><![CDATA[
 <h2 id="toc_0">Image, Audio &amp; Video</h2>
@@ -373,7 +384,7 @@ WantedBy=multi-user.target
   <entry>
     <title type="html"><![CDATA[Verify something...]]></title>
     <link href="http://tisph.site/14755713118882.html"/>
-    <updated>2016-10-04T16:55:11+08:00</updated>
+    <updated>2016-10-04T03:55:11-05:00</updated>
     <id>http://tisph.site/14755713118882.html</id>
     <content type="html"><![CDATA[
 
@@ -383,7 +394,7 @@ WantedBy=multi-user.target
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
     <link href="http://tisph.site/14755707821292.html"/>
-    <updated>2016-10-04T16:46:22+08:00</updated>
+    <updated>2016-10-04T03:46:22-05:00</updated>
     <id>http://tisph.site/14755707821292.html</id>
     <content type="html"><![CDATA[
 
