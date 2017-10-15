@@ -4,13 +4,86 @@
   <title><![CDATA[TiSpH]]></title>
   <link href="http://tisph.site/atom.xml" rel="self"/>
   <link href="http://tisph.site/"/>
-  <updated>2017-09-14T23:00:45-05:00</updated>
+  <updated>2017-10-14T20:13:15-05:00</updated>
   <id>http://tisph.site/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[Mac]]></title>
+    <link href="http://tisph.site/15080265401862.html"/>
+    <updated>2017-10-14T19:15:40-05:00</updated>
+    <id>http://tisph.site/15080265401862.html</id>
+    <content type="html"><![CDATA[
+<h3 id="toc_0">GUI:</h3>
+
+<p>Anki<br/>
+AppDelete<br/>
+Audio Hijack<br/>
+Boom 3D<br/>
+Cryptomator<br/>
+DaisyDisk<br/>
+Dash<br/>
+duet<br/>
+Free Download Manager<br/>
+LibreOffice<br/>
+Mathematica<br/>
+MWeb<br/>
+Nutstore<br/>
+Surge<br/>
+Telegram Desktop<br/>
+Tuxera<br/>
+VOX</p>
+
+<span id="more"></span><!-- more -->
+
+<h3 id="toc_1">CLI:</h3>
+
+<p>fzf<br/>
+haskell-stack<br/>
+jupyter<br/>
+libzip<br/>
+mobile-shell<br/>
+mpv<br/>
+nethack<br/>
+nmap<br/>
+p7zip<br/>
+sox<br/>
+tldr<br/>
+tmux<br/>
+tree</p>
+
+<h4 id="toc_2">Dotfiles:</h4>
+
+<p><a href="https://github.com/gpakosz/.tmux">.tmux</a><br/>
+<a href="https://github.com/amix/vimrc">.vimrc</a><br/>
+<a href="http://ohmyz.sh">.zshrc</a></p>
+
+<h2 id="toc_3">iOS</h2>
+
+<p>Anki<br/>
+Blink<br/>
+Coda<br/>
+Cryptomator<br/>
+Editorial<br/>
+Feedly<br/>
+File Hub<br/>
+iCiruit<br/>
+Mi Calculator<br/>
+Pin<br/>
+Procreate<br/>
+Puffin<br/>
+Pythonista<br/>
+ScanScan<br/>
+Surge<br/>
+WolframAlpha<br/>
+Workflow</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pictures]]></title>
